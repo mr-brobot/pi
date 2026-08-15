@@ -10,3 +10,7 @@ agent/missions/
 # agent packages
 agent/npm/
 
+# mcp / model caches (managed by pi)
+agent/mcp-cache.json
+agent/models-store.json
+
