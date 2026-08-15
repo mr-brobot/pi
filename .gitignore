@@ -1,0 +1,12 @@
+.pi/
+.pi-subagents/
+subagents/
+
+# agent history
+agent/sessions/
+agent/run-history.jsonl
+agent/missions/
+
+# agent packages
+agent/npm/
+

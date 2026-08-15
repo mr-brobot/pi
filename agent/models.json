@@ -1,0 +1,55 @@
+{
+  "providers": {
+    "huggingface": {
+      "modelOverrides": {
+        "thinkingmachines/Inkling": {
+          "maxTokens": 262144
+        },
+        "thinkingmachines/Inkling-Small": {
+          "maxTokens": 262144
+        }
+      },
+      "models": [
+        {
+          "id": "thinkingmachines/Inkling:cheapest",
+          "name": "Inkling (cheapest)",
+          "reasoning": true,
+          "input": ["text", "image"],
+          "cost": {
+            "input": 0.95,
+            "output": 4.05,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "compat": { "supportsDeveloperRole": false },
+          "contextWindow": 524288,
+          "maxTokens": 262144,
+          "thinkingLevelMap": {
+            "off": null,
+            "minimal": null,
+            "low": "low",
+            "medium": "medium",
+            "high": "high",
+            "xhigh": null,
+            "max": null
+          }
+        },
+        {
+          "id": "thinkingmachines/Inkling-Small:cheapest",
+          "name": "Inkling Small (cheapest)",
+          "reasoning": true,
+          "input": ["text", "image"],
+          "cost": {
+            "input": 0.45,
+            "output": 1.2,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "compat": { "supportsDeveloperRole": false },
+          "contextWindow": 524288,
+          "maxTokens": 262144
+        }
+      ]
+    }
+  }
+}

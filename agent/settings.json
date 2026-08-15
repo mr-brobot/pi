@@ -1,0 +1,33 @@
+{
+  "quietStartup": true,
+  "lastChangelogVersion": "0.84.2",
+  "theme": "dark",
+  "defaultProvider": "huggingface",
+  "defaultModel": "thinkingmachines/Inkling:cheapest",
+  "packages": [
+    "npm:pi-vim",
+    "npm:pi-mcp-adapter",
+    "npm:pi-subagents"
+  ],
+  "piVim": {
+    "modeColors": {
+      "insert": "borderAccent",
+      "normal": "mdLink"
+    },
+    "borderSync": {
+      "insert": "mode",
+      "normal": "mode",
+      "visual": "mode"
+    }
+  },
+  "hideThinkingBlock": true,
+  "defaultThinkingLevel": "high",
+  "subagents": {
+    "disableBuiltins": true,
+    "agentOverrides": {
+      "delegate": {
+        "disabled": false
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "settings": {
+    "autoAuth": true
+  },
+  "mcpServers": {
+    "exa": {
+      "url": "https://mcp.exa.ai/mcp"
+    },
+    "unreal": {
+      "url": "http://localhost:8000/mcp"
+    },
+    "blender": {
+      "command": "uvx",
+      "args": [
+        "--with",
+        "mcp[cli]<2.0",
+        "--from",
+        "git+https://projects.blender.org/lab/blender_mcp.git@v1.0.0#subdirectory=mcp",
+        "blender-mcp"
+      ]
+    }
+  }
+}
