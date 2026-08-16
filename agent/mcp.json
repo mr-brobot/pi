@@ -9,6 +9,9 @@
     "unreal": {
       "url": "http://localhost:8000/mcp"
     },
+    "github": {
+      "url": "https://api.githubcopilot.com/mcp/"
+    },
     "blender": {
       "command": "uvx",
       "args": [
