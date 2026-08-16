@@ -7,7 +7,7 @@ inheritProjectContext: false
 inheritSkills: false
 defaultProgress: true
 async: true
-model: zai-org/GLM-5.2
+model: thinkingmachines/Inkling-Small:cheapest
 thinking: high
 tools: read, grep, find, ls, bash, mcp:exa/web_search_exa, mcp:exa/web_fetch_exa, contact_supervisor
 ---
