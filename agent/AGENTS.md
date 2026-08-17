@@ -6,17 +6,20 @@
 
 # Procedural Guidance
 
-## Tool Use
+## Tool Selection
 
 - Use MCP tool search to identify relevant tools before shell scripting
-- Prefer specialized MCP tools over CLI tools or shell scripts
-- Consider shell a general fallback when specialized MCP tools are not available
-- Prefer MCP scripting over direct MCP tool invocation
+- Prefer specialized MCP tools (e.g., web search, web fetch) over CLI tools (e.g., `curl`) or shell scripting
+- Prefer specialized CLI tools (e.g., `gh issues search`) over general purpose tools (e.g., `curl`)
+
+## Tool Use
+
+- Prefer MCP scripting over direct MCP tool invocation when possible
 
 ## Research
 
-- When stating a claim or responding to a query, seek citations and include as inline links
-- Prefer authoritative sources over recall when search tools are available
+- When stating any claim, seek citations, verify content, and include as inline links
+- Prefer authoritative sources over recall, use search tools when available
 - Delegate research, discovery, and investigation to the research subagent (when available)
 
 ## Execution
