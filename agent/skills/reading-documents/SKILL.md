@@ -1,6 +1,6 @@
 ---
 name: reading-documents
-description: Use when asked to read a PDF file.
+description: Use when reading PDF files.
 compatibility: Requires uv (for uvx).
 ---
 
