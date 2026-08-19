@@ -14,3 +14,4 @@ agent/npm/
 agent/mcp-cache.json
 agent/models-store.json
 
+agent/trust.json
